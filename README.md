@@ -1,18 +1,48 @@
 
+#  Spring Boot TodoList Web Application 
 
-#  Todo List 
 
-My first Spring Boot Web Application 
+## Overview
+
+This is a simple TodoList web application built using Spring Boot. It performs basic CRUD (Create, Read, Update, Delete) operations on Todo items. The application uses both MySQL and H2 databases to store and retrieve Todo data. 
+
+##  
+
+Create, Read, Update, and Delete Todo items.
+Store data in both MySQL and H2 databases.
+Spring Boot for easy setup and development.
+## Features
+
+- Create, Read, Update, and Delete Todo items.
+- Store data in both MySQL and H2 databases.
+- Spring Boot for easy setup and development.
+
+## Prerequisites
+
+#### Make sure you have the following installed before running the application:
+
+- Java JDK 8 or higher
+- Maven
+- Apache
+- MySQL database server (optional, if you want to use MySQL)
+and 
+- Access the application in your web browser at http://localhost:8080.
+
+## Configuration
+
+#### H2 Database (default)
+
+The application is configured to use an H2 in-memory database by default. You can access the H2 console at http://localhost:8080/h2-console for testing and debugging purposes.
 
 ## Docker
 
-Launch MySQL using Docker
+#### Launch MySQL using Docker
 
 ```bash
   docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:8-oracle
 ```
 
-application.properties configuration
+#### application.properties configuration
 
 
 ```bash
