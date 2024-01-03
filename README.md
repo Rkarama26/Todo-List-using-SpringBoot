@@ -24,17 +24,17 @@ Spring Boot for easy setup and development.
 - Java JDK 8 or higher
 - Maven
 - Apache
-- MySQL database server (optional, if you want to use MySQL)
-and 
-- Access the application in your web browser at http://localhost:8080.
+- MySQL database server
+- Docker 
+- Access the application in your web browser at http://localhost:8080/login.
 
 ## Configuration
 
-#### H2 Database (default)
+#### H2 Database
 
 The application is configured to use an H2 in-memory database by default. You can access the H2 console at http://localhost:8080/h2-console for testing and debugging purposes.
 
-## Docker
+## Docker (default)
 
 #### Launch MySQL using Docker
 
@@ -78,3 +78,38 @@ docker container stop ID
 ## Install MySQL
 
 https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-install.html
+
+
+## Steps 
+
+### Step-01 Login
+#### username - karma2003
+#### password - dummy1
+(If shows an error open in a new tab or reload)
+
+![Screenshot (85)](https://github.com/Rkarama26/Todo-List-using-SpringBoot/assets/133999108/1c5f212f-e0ea-4040-b3d5-6846f729c90a)
+
+#### Step-02 Home
+Click on "manage todos"
+
+![Screenshot (86)](https://github.com/Rkarama26/Todo-List-using-SpringBoot/assets/133999108/22d48a87-3657-4d97-ba0c-9b2f7dd84f73)
+
+#### Step-03 Task List
+Click on "Add Todo" to add a new task
+
+![Screenshot (87)](https://github.com/Rkarama26/Todo-List-using-SpringBoot/assets/133999108/c5953a7c-f042-4a89-832f-f79bfc71cd3e)
+
+
+#### Step-04 Update task
+
+![Screenshot (88)](https://github.com/Rkarama26/Todo-List-using-SpringBoot/assets/133999108/8b0893ea-31a3-4a37-9f40-876b1e940f01)
+
+
+
+
+
+
+
+
+
+
